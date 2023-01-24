@@ -1,0 +1,381 @@
+* {
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "poppins", sans-serif;
+}
+
+/* -----------------------------------------------navbar start---------------------------------------------- */
+.navbar {
+
+    background-color: rgb(14, 74, 114);
+
+}
+
+.image {
+
+    height: 100vh;
+    width: 100%;
+}
+
+.image .img-fluid {
+    height: 100vh;
+    width: 100%;
+}
+
+.home-navbar {
+
+    width: 100%;
+}
+
+#navbarnav ul li a {
+
+    font-size: 20px;
+    font-weight: bold;
+    color: #fff;
+
+}
+
+#navbarnav ul li a {
+
+    box-shadow: inset 0 0 0 0 black;
+    padding: 0 .25rem;
+    margin: 0 -.25rem;
+    transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
+
+}
+
+#navbarnav ul li a:hover {
+
+    color: rgb(211, 16, 16);
+    box-shadow: inset 200px 0 0 0 black;
+    border-radius: 5px;
+}
+
+.logo {
+
+    margin-left: 20px;
+}
+
+/* -------------------------------------------------feture collection--------------------------------- */
+.feture-cols {
+    display: flex;
+    justify-content: center;
+
+}
+
+.feture-cols img {
+
+    height: 20rem;
+}
+
+.feture h1 {
+
+    color: rgba(23, 23, 233, 0.982);
+
+}
+
+.overlay {
+    position: absolute;
+    bottom: 100px;
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.5);
+    color: #f1f1f1;
+    width: 100%;
+    transition: .5s ease;
+    opacity: 0;
+    color: white;
+    font-size: 20px;
+    padding: 20px;
+    text-align: center;
+}
+
+.card:hover .overlay {
+    opacity: 1;
+}
+
+.moreproduct {
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+}
+
+/* -----------------------------------------------btn------------------------------------------------------ */
+.moreproduct .btn {
+    letter-spacing: 2px;
+    box-shadow: inset 0 0 0 0 black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: palevioletred;
+    width: 200px;
+
+}
+
+.moreproduct .btn:hover {
+    background-color: black;
+    color: orange;
+    box-shadow: inset 200px 0 0 0 black;
+    border-radius: 5px;
+
+}
+
+/* ----------------------------------------------------------middle-page--------------------------------------- */
+.middle-page h5 {
+
+    font-size: 2.5rem;
+    color: red;
+    font-family: sans-serif;
+}
+
+.middle-page p {
+
+    letter-spacing: 2px;
+    line-height: 40px;
+    font-family: sans-serif;
+}
+
+.middle-page img {
+
+    height: 500px;
+}
+
+.middle-page h1 {
+
+    color: rgba(23, 23, 233, 0.982)
+}
+
+
+/* ----------------------------------------------------------------as soon as---------------------------------------- */
+.soonas-cols {
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.soonas h1 {
+
+    color: rgba(23, 23, 233, 0.982)
+}
+
+/* ------------------------------------------------------------section--------------------------------------------------- */
+.section-cols {
+    display: flex;
+    justify-content: center;
+}
+
+.section h1 {
+
+    color: rgba(23, 23, 233, 0.982)
+}
+
+/* -----------------------------------------------services---------------------------------------------------- */
+.services-page {
+
+    border: 1px solid black;
+    height: 50vh;
+    width: 100vw;
+}
+
+.services-page img {
+
+    height: 50vh;
+    width: 100vw;
+
+}
+
+.services {
+
+    height: 100%;
+
+}
+
+.services-cols {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.services-cols img {
+
+    height: 15rem;
+    border-radius: 10px;
+}
+
+.services-cols img {
+    transition: 1s ease;
+}
+
+.services-cols img:hover {
+    -webkit-transform: scale(0.8);
+    -ms-transform: scale(0.8);
+    transform: scale(0.8);
+    transition: 1s ease;
+}
+
+
+.services-cols p {
+
+    font-size: 1.5rem;
+
+}
+
+/* ---------------------------------------------contact------------------------------------------- */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.contact-in {
+    width: 80%;
+    height: auto;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: rgb(142, 127, 127);
+    box-shadow: 0px 0px 10px 0px #666;
+}
+
+.contact-map {
+
+    width: 100%;
+    height: auto;
+    flex: 50%;
+
+}
+
+.contact-map iframe {
+
+    width: 100%;
+    height: 100%;
+
+}
+
+.contact-form {
+
+    width: 100%;
+    height: auto;
+    flex: 50%;
+    text-align: center;
+    padding: 30px;
+}
+
+.contact-form p {
+    color: #fff;
+}
+
+.contact-form ::placeholder {
+    color: #aaa;
+}
+
+.contact-form h1 {
+    margin-bottom: 10px;
+    color: white;
+}
+
+.contact-form-text {
+
+    width: 100%;
+    height: 40px;
+    color: rgb(242, 238, 238);
+    border: 1px solid #bcbcbc;
+    border-radius: 50px;
+    outline: none;
+    margin-bottom: 20px;
+    padding: 15px;
+}
+
+.contact-form-textarea {
+
+    width: 100%;
+    height: 140px;
+    color: rgb(243, 240, 240);
+    border: 1px solid #bcbcbc;
+    border-radius: 10px;
+    outline: none;
+    margin-bottom: 20px;
+    padding: 15px;
+    font-family: 'popins', sans-serif;
+}
+
+.contact-form-textarea ::placeholder {
+    color: #aaa;
+}
+
+.contact-form-btn {
+
+    width: 100%;
+    border: none;
+    outline: none;
+    border-radius: 50px;
+    background-color: #be8e4c;
+    color: #fff;
+    text-transform: uppercase;
+    padding: 10px 0;
+    cursor: pointer;
+    font-size: 18px;
+    transition: 0.9s;
+
+}
+
+.contact-form-btn:hover {
+    background-color: green;
+    transform: scale(0.9);
+}
+
+.collig {
+    font-size: 15px;
+    font-weight: bolder;
+    padding: 10px;
+    color: rgb(12, 12, 12);
+
+}
+
+/* -------------------------------------feature---------------------------------- */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "poppins", sans-serif;
+}
+
+.card2 img {
+
+    transition: 0.7s;
+    border-radius: 20px;
+}
+
+.card2 img:hover {
+    border-radius: 30%;
+    transform: scale(0.9);
+    cursor: pointer;
+}
+
+
+
+/* -----------------------------------------------------------footer---------------------------------------------- */
+#facebook {
+
+    color: blue;
+}
+
+#insta {
+
+    color: purple;
+}
+
+#youtube {
+
+    color: red;
+}
+
+#whatsapp {
+
+    color: green;
+}
